@@ -2,9 +2,9 @@
 echo "dotenv command line script"
 echo "============"
 echo "Starting installation..."
-sudo curl -o /usr/bin/dotenv https://raw.githubusercontent.com/devinshively/dotenv/master/dotenv
+sudo curl -o /usr/local/bin/denv https://raw.githubusercontent.com/devinshively/denv/master/denv
 
 echo "Updating permissions..."
-sudo chmod +x /usr/bin/dotenv
+sudo chmod +x /usr/local/bin/denv
 
 echo "Installation complete..."

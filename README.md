@@ -1,12 +1,12 @@
 # `dotenv command line script`
-Use to run a command with environment variables from your .env file.
+Use to run a command with environment variables from the .env file in your current working directory.
 
 ## Installation
-    bash <(curl -s --no-sessionid https://raw.githubusercontent.com/devinshively/dotenv/master/install)
+    bash <(curl -s --no-sessionid https://raw.githubusercontent.com/devinshively/denv/master/install)
 
 ## Example usage
 ```
-    dotenv yourcommmand arg1 arg2
+    denv yourcommmand arg1 arg2
 
     $ cat .env
 	# This is an example .env file
@@ -24,7 +24,7 @@ Use to run a command with environment variables from your .env file.
 	ACCESS_KEY:
 	SECRET_KEY:
 
-	$ ./dotenv ./test.sh
+	$ denv ./test.sh
 	MY_ENV_VAR: test
 	ACCESS_KEY: access-key
 	SECRET_KEY: super-secret
