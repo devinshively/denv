@@ -1,5 +1,4 @@
 # `dotenv command line script`
-============
 Use to run a command with environment variables from your .env file.
 
 ## Installation
